@@ -1,2 +1,2 @@
-# vinai.github.io
+# vinai.co
 Personal website
