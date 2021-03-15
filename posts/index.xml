@@ -10,7 +10,7 @@
     <atom:link href="https://www.vinai.co/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>[Draft] Reflections on 3 months at a startup as an engineer</title>
+      <title>Reflections on 3 months at a startup as an engineer</title>
       <link>https://www.vinai.co/posts/post-01/</link>
       <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
       
@@ -21,13 +21,13 @@
 
 &lt;h2 id=&#34;don-t-wear-a-lot-of-hats&#34;&gt;Don&amp;rsquo;t wear a lot of hats.&lt;/h2&gt;
 
-&lt;p&gt;One of things that interested me in joining a super early startup was the idea of wearing lots of hats. This maxim states that in a startup you have the opportunity to try different roles and work on all sorts of business units. For me personally, I imagined myself being able to do 3 things: coding the actual product, conducting customer research, and thinking about new places for growth. What I realized is that each of these actions themselves represented 3 highly intense roles. Just like shipping high-quality code is super hard, so is sourcing great customers or sketching the right product to build.&lt;/p&gt;
+&lt;p&gt;One of things that interested me in joining a super early startup was the idea of wearing lots of hats. That is, the opportunity to try different roles and work on all sorts of business units. I imagined myself being able to do 3 things: coding the actual product, conducting customer research, and identifying new growth opportunities. What I quickly realized is that each of these actions themselves represented 3 highly intense roles. Just like shipping high-quality code is super hard, so is sourcing great customers or sketching the right product to build.&lt;/p&gt;
 
-&lt;p&gt;You may ask yourself: &amp;ldquo;Shouldn&amp;rsquo;t I just push through all of this hard work?&amp;rdquo; When you factor in context switching between these disparate job functions, I think the result is only going to be a mediocre output. (Prove me wrong if otherwise!) I do want to point out that I&amp;rsquo;m not arguing for separating yourself completely from other teams. In fact, I think engineers should 100% take the time to think about the product they are building. But what&amp;rsquo;s more important is establishing your legitimacy as an expert in your job domain and producing the value you were hired to create. The other stuff comes later.&lt;/p&gt;
+&lt;p&gt;You may ask yourself: “Shouldn’t I just push through all of this hard work?” When you factor in context switching between these disparate job functions, I think the result is only going to be a mediocre output. (Prove me wrong if otherwise!) I do want to point out that I’m not arguing for separating yourself completely from other teams. In fact, I think engineers should 100% take the time to think about the product they are building. But what’s more important is establishing your legitimacy as an expert in your job domain and producing the value you were hired to create. Focus on your craft.&lt;/p&gt;
 
 &lt;h2 id=&#34;vision-is-constantly-changing-don-t-make-it-priority-1&#34;&gt;Vision is constantly changing. Don&amp;rsquo;t make it Priority #1.&lt;/h2&gt;
 
-&lt;p&gt;When deciding to join Dolthub, I found myself enamored by the vision of our database becoming the data format for data collaboration. Within 2 months, I was surprised to find that our primary focus shifted to selling Dolt as an application level database. Turns out it was getting much more difficult to incubate our marketplace while we were getting real traction delivering our database as an enterprise tool. Vision is great when evaluating a company but never forget that &lt;strong&gt;the market is the boss.&lt;/strong&gt; In fact, I would never recommend joining a startup with vision as your #1 factor (maybe there&amp;rsquo;s exceptions in deep-tech). Things can change at anytime.&lt;/p&gt;
+&lt;p&gt;When deciding to join Dolthub, I found myself enamored by the vision of our database becoming the data format for data collaboration. Within 2 months, I was surprised to find that our primary focus shifted to selling Dolt as an application level database. Turns out it was getting much more difficult to incubate our marketplace while we were getting real traction delivering our database as an enterprise tool. What I now realize is that vision is great when evaluating a company but never forget that &lt;strong&gt;the market is the boss.&lt;/strong&gt; In fact, I would never recommend joining a startup with vision as your #1 factor (maybe there&amp;rsquo;s exceptions in deep-tech). Things can change at anytime.&lt;/p&gt;
 
 &lt;h2 id=&#34;leverage-applies-to-every-job-function&#34;&gt;Leverage applies to every job function.&lt;/h2&gt;
 
@@ -35,7 +35,7 @@
 
 &lt;h2 id=&#34;shipping-velocity-isn-t-enough-you-need-high-quality-shipping-velocity&#34;&gt;Shipping Velocity isn&amp;rsquo;t enough. You need HIGH-QUALITY shipping velocity.&lt;/h2&gt;
 
-&lt;p&gt;Shipping velocity is extremely important for any startup to succeed. But often times people confuse shipping velocity with hacky fixes and untested code. That&amp;rsquo;s just delaying your pain. And in this day and age, nothing pisses people off more than bad software.&lt;/p&gt;
+&lt;p&gt;Shipping velocity is extremely important for any startup to succeed. But in the I past I confused shipping velocity with hacky fixes and untested code. That&amp;rsquo;s just delaying your pain. And in this day and age, nothing pisses people off more than bad software.&lt;/p&gt;
 
 &lt;p&gt;When considering high-quality shipping velocity we immediately default to that meaning having the best engineers on your team. That&amp;rsquo;s certainly true but I&amp;rsquo;m become a firm believer that amazing ops makes an even bigger difference. This includes robust CI-CD pipeline, well-managed developer consoles, a focus on unit testing, and a culture of high standards (more on ops in a later blog post). When I joined Dolthub, I was surprised we already had a person working full-time on ops (this might be a common thing but I hadn&amp;rsquo;t seen it before). But he&amp;rsquo;s made us 10x more confident in the code we&amp;rsquo;re shipping. We are constantly confident that our product quality &lt;strong&gt;never drops&lt;/strong&gt;. Product quality 100% compounds so when your product is consistently getting better you have a much better chance of it becoming incredible.&lt;/p&gt;
 
@@ -43,7 +43,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Consider many failure modes and invest in robust test cases.&lt;/li&gt;
-&lt;li&gt;Review your damn code thoroughly before you ask others to take a look.&lt;/li&gt;
+&lt;li&gt;Review your damn code thoroughly before a review. Unreviewed code is an insult to your coworker&amp;rsquo;s time.&lt;/li&gt;
 &lt;li&gt;Consider the stakeholders of your code. Who gets affected by this change? Don&amp;rsquo;t be afraid to consult your stakeholders regularly because your changes will affect them.&lt;/li&gt;
 &lt;li&gt;Be honest about tradeoffs. If you can&amp;rsquo;t fix a flaw due to time pressure, let the relevant stakeholders know and move on.&lt;/li&gt;
 &lt;/ul&gt;
@@ -52,7 +52,7 @@
 
 &lt;p&gt;One of the best articles that I&amp;rsquo;ve read that completely shifted my perspective on engineering is this &lt;a href=&#34;https://shyamsankar.com/position-and-portfolio&#34;&gt;article&lt;/a&gt; by Shyam Sankar (COO at Palantir). What you want to cultivate is a team of artists who are focused on delivering the best product possible with the understanding that individual ownership is a myth with modern software development. What process only serves to do is reduce the creative scope of your engineers. Jira boards, sprint reviews are not high leverage things that cultivate artistic expression. What you really want to focus on when working with engineers is optimizing the balance between shipping features that deliver customer value with features that are really interesting intellectual challenges (I stole this from my boss). It&amp;rsquo;s important to note that all of this is predated on each individual artist caring about their work but not about about the credit itself. Would you ever buy art from artist who didn&amp;rsquo;t care about what they produced? Is it okay for the symphony conductor take all of the credit for the orchestra&amp;rsquo;s performance? No!&lt;/p&gt;
 
-&lt;p&gt;Process can theoretically nudge people into more ownership, but even better is hiring people who care about what they build. Don&amp;rsquo;t compromise on the latter at a startup.&lt;/p&gt;
+&lt;p&gt;Process can theoretically nudge people into more ownership, but even better is hiring people who care about the quality of their output. Don&amp;rsquo;t compromise on the latter at a startup.&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading! More stuff coming soon :)&lt;/p&gt;
 </description>
